@@ -3,8 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title>Litter Finder</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>Litter Finder</h1>
+  	<!-- Bootstrap navbar -->
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			    <span class="sr-only">Toggle navigation</span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Litter Finder</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+			    <li class="active"><a href="#">Home</a></li>
+			    <li><a href="#">About</a></li>
+			    <li><a href="#">Contact</a></li>
+			  </ul>
+			  
+			  <ul class="nav navbar-nav navbar-right">
+			    <li><a href="#">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+			    <li><a href="#">Login <i class="fa fa-user" aria-hidden="true"></i></a></li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+
+	<div id="content">
+		<h1>Litter Finder</h1>
+    	<h3>Help the world get rid of some litter</h2>
+    	<button class="btn btn-default btn-lg"><i class="fa fa-tree" aria-hidden="true"></i> Discover How</button>
+	</div>
+
+    <!-- for the navbar -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
