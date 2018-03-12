@@ -4,15 +4,25 @@ body {
 	background-position: center;
 }
 
+.navbar {
+	color:gray;
+	border: none;
+	font-size: 1.3em;
+}
+
+.navbar-brand {
+	font-size: 1.7em;
+}
+
 #content {
-    color: rgba(255,255,255,.8);
+    color: #e0d8c5;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .2em;
     padding-top: 25%;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-		0px 8px 13px rgba(0,0,0,0.1),
-		0px 18px 23px rgba(0,0,0,0.1);
+	text-shadow: 3px 4px 5px rgba(0,0,0,0.8),
+		0px 8px 13px rgba(0,0,0,0.5),
+		0px 18px 23px rgba(0,0,0,0.5);
 }
 
 #content h1 {
