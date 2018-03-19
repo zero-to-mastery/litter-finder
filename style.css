@@ -54,3 +54,29 @@ body {
 #submissions-counter {
 	font-weight: bold;
 }
+form {
+	background:rgba(102, 102, 102, 0.8);
+	margin-top: 50px;
+	color: #fff;
+	border-radius: 13px;
+}
+
+.s-form{
+	padding: 20px;
+	
+}
+
+.s-form label {
+	margin: 5px;
+}
+
+.sign-head {
+	color: #e0d8c5;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	padding-top: 2%;
+text-shadow: 3px 4px 5px rgba(0,0,0,0.8),
+	0px 8px 13px rgba(0,0,0,0.5),
+	0px 18px 23px rgba(0,0,0,0.5);
+}
