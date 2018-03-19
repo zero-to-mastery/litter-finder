@@ -24,7 +24,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .2em;
-    padding-top: 25%;
+    padding-top: 15%;
 	text-shadow: 3px 4px 5px rgba(0,0,0,0.8),
 		0px 8px 13px rgba(0,0,0,0.5),
 		0px 18px 23px rgba(0,0,0,0.5);
@@ -37,4 +37,20 @@ body {
 #content button {
 	letter-spacing: 0;
 	margin-top: 20px;
+}
+
+#footer {
+	color: lightgreen;
+	text-align: center;
+	margin-top: 60px;
+	font-size: 1.4em;
+	background-color: rgba(0,0,0,0.5);
+	text-shadow: 3px 4px 5px rgba(0,0,0,0.8),
+		0px 8px 13px rgba(0,0,0,0.5),
+		0px 18px 23px rgba(0,0,0,0.5);
+	padding: 10px 0;
+}
+
+#submissions-counter {
+	font-weight: bold;
 }
