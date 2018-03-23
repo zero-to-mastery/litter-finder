@@ -40,7 +40,7 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .2em;
-    padding-top: 15%;
+    padding-top: 20%;
 	text-shadow: 3px 4px 5px rgba(0,0,0,0.8),
 		0px 8px 13px rgba(0,0,0,0.5),
 		0px 18px 23px rgba(0,0,0,0.5);
@@ -100,7 +100,7 @@ form {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: .2em;
-	padding-top: 2%;
+	padding-top: 10%;
 text-shadow: 3px 4px 5px rgba(0,0,0,0.8),
 	0px 8px 13px rgba(0,0,0,0.5),
 	0px 18px 23px rgba(0,0,0,0.5);
