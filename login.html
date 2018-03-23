@@ -32,20 +32,18 @@
 			  </ul>
 			  
 			  <ul class="nav navbar-nav navbar-right">
-			    <li  class="active"><a href="signup.html">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
-			    <li><a href="login.html">Login <i class="fa fa-user" aria-hidden="true"></i></a></li>
+			    <li><a href="signup.html">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+			    <li class="active"><a href="login.html">Login <i class="fa fa-user" aria-hidden="true"></i></a></li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container -->
 	</nav>
   <div class="container">
-      <h1 class="sign-head text-center">SIGN UP TO HELP THE WORLD GET RID OF SOME LITTER</h1>
+      <h1 class="sign-head text-center">ALREADY HAS AN ACCOUNT? LOG IN HERE.</h1>
     <div class=" col-md-4 col-md-offset-4">
       
     <form>
       <div class="form-group s-form">
-        <label>Name</label>
-        <input type="text" class="form-control"  placeholder="Enter Name...">
         <label for="exampleInputEmail1">Email address</label>
         <input  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email...">
         
@@ -53,13 +51,18 @@
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Confirm Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
-      </div>
+			</div>
+			
+			<div class="form-group login-group-checkbox">
+				<input type="checkbox" id="lg_remember" name="lg_remember">
+				<label for="lg_remember">Remember</label>
+			</div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+			<div class="etc-login-form">
+				<p>forgot your password? <a href="#">click here</a></p>
+				<p>new user? <a href="#">create new account</a></p>
+
+      <button type="submit" class="btn btn-primary">Login</button>
     </form>
   </div>
   </div>

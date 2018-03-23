@@ -3,16 +3,32 @@ html {
   height: 100%; 
 }
 
+
 body {
+	background-color: #6b4b41;
 	background-image: url(background-img.jpg);
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a {
+	color: #c9b8b3;
+}
+
+a:hover {
+	color: #a79e9b;
 }
 
 .navbar {
 	color:gray;
 	border: none;
 	font-size: 1.3em;
+	z-index: 99;
+	position: fixed;
+	right: 0;
+    left: 0;
 }
 
 .navbar-brand {
@@ -54,6 +70,15 @@ body {
 #submissions-counter {
 	font-weight: bold;
 }
+
+.jumbotron {
+	background:rgba(102, 102, 102, 0.8);
+	margin: 5% 10%;
+	color: #fff;
+	border-radius: 13px;
+	padding: 20px;
+}
+
 form {
 	background:rgba(102, 102, 102, 0.8);
 	margin-top: 50px;
