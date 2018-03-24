@@ -6,7 +6,7 @@ html {
 
 body {
 	background-color: #6b4b41;
-	background-image: url(background-img.jpg);
+	background-image: url(../assets/imgs/background-img.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -73,7 +73,7 @@ a:hover {
 
 .jumbotron {
 	background:rgba(102, 102, 102, 0.8);
-	margin: 5% 10%;
+	margin: 20% 10%;
 	color: #fff;
 	border-radius: 13px;
 	padding: 20px;
