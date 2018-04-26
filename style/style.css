@@ -105,3 +105,11 @@ text-shadow: 3px 4px 5px rgba(0,0,0,0.8),
 	0px 8px 13px rgba(0,0,0,0.5),
 	0px 18px 23px rgba(0,0,0,0.5);
 }
+/* styling of Google Maps div and Add location button */
+#map {
+        height: 400px;
+        width: 100%;
+       }
+.btn-addloc {
+	margin-top: 5%;
+}
