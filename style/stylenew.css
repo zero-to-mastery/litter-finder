@@ -2,8 +2,8 @@
 padding-top:25px;
 }
 
-html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,4 +21,18 @@ html {
 footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+#map {
+  height: 500px;
+  width: 500px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.title{
+  background-color: rgba(255,255,255, 0.65);
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
 }
