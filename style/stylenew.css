@@ -57,13 +57,13 @@ footer {
   border-color: rgba(62,102,23, 1);
 }
 .btn-primary:hover {
-  background-color: rgba(117,137,24, 0.8);
-  border-color: rgba(117,137,24, 0.8);
+  background-color: rgba(62,102,23, 0.8);
+  border-color: rgba(62,102,23, 0.8);
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:active {
-  background-color: rgba(117,137,24, 0.6);
-  border-color: rgba(117,137,24, 0.6);
+  background-color: rgba(62,102,23, 0.6);
+  border-color: rgba(62,102,23, 0.6);
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
