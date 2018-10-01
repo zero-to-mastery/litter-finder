@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href=".\style\stylenew.css">
     <!-- <link rel="stylesheet" type="text/css" href="style/style.css"> -->
     <link rel="stylesheet" type="text/css" href="style/stylenew.css">
   </head>
@@ -43,9 +44,14 @@
 </nav>
   <div class="container">
 		<div class="jumbotron">
+      <div class="title">
 			<h1 class="display-4">Mark location</h1>
 			<p class="lead">Mark your location on the map</p>
-			<div id="map"></div>
+    </div>
+      <!-- location for the map -->
+      <div id="map">
+
+      </div>
     		<p class="lead">
 				<a class="btn btn-primary btn-lg btn-addloc" href="#" role="button">Add Location</a>
 			</p>
@@ -66,5 +72,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src=".\Geolocation.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQQBu-Wh79h1xdB3yLc45mIbqvGallZM0&callback=initMap" async defer></script>
   </body>
 </html>
