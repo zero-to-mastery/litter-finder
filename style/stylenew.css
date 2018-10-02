@@ -10,6 +10,17 @@ html {
   background-size: cover;
 }
 
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.navbar {
+  box-shadow: 0 0 .3rem rgba(0,0,0, 0.5);
+}
+
+footer {
+  box-shadow: 0 0 .3rem rgba(0,0,0, 0.5);
+}
+
 .jumbotron {
 	background-image: url(https://images.unsplash.com/photo-1523898377974-b4f882164761?ixlib=rb-0.3.5&s=25e34b1d34a4d24d5cdeb13da625e142&auto=format&fit=crop&w=1349&q=80);
   -webkit-background-size: cover;
@@ -22,17 +33,20 @@ html {
 }
 
 .jumbotron h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 100;
 }
 .jumbotron .display-4 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
-
+.jumbotron p {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
 .jumbotron .lead {
   color: rgba(255,255,255,1);
+  font-size:  1.6rem;
 }
+
 footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -51,10 +65,18 @@ footer {
   border-radius: 10px;
   padding: 10px;
 }
-
+a {
+  color: rgba(62,102,23, 1);
+  transition:  all .4s ease-in-out;
+}
+a:hover {
+  color: rgba(62,102,23, 0.8);
+  text-decoration: none;
+}
 .btn-primary {
   background-color: rgba(62,102,23, 1);
   border-color: rgba(62,102,23, 1);
+  transition:  all .4s ease-in-out;
 }
 .btn-primary:hover {
   background-color: rgba(62,102,23, 0.8);
@@ -62,11 +84,14 @@ footer {
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:active {
-  background-color: rgba(62,102,23, 0.6);
-  border-color: rgba(62,102,23, 0.6);
+  background-color: rgba(62,102,23, 0.8);
+  border-color: rgba(62,102,23, 0.8);
+  box-shadow: 0 0 .3rem .2rem rgba(0,0,0, 0.5);
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
+  background-color: rgba(62,102,23, 0.8);
+  border-color: rgba(62,102,23, 0.8);
   box-shadow: 0 0 .3rem .2rem rgba(0,0,0, 0.5);
 }
