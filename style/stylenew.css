@@ -9,6 +9,10 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
 .navbar {
   box-shadow: 0 0 .3rem rgba(0,0,0, 0.5);
 }
@@ -29,17 +33,20 @@ footer {
 }
 
 .jumbotron h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 100;
 }
 .jumbotron .display-4 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
-
+.jumbotron p {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
 .jumbotron .lead {
   color: rgba(255,255,255,1);
+  font-size:  1.6rem;
 }
+
 footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
