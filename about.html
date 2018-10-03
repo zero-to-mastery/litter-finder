@@ -3,42 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>Litter Finder</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="style/stylenew.css">
   </head>
   <body>
   	<!-- Bootstrap navbar -->
-	<nav class="navbar navbar-inverse navbar-lg">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			    <span class="sr-only">Toggle navigation</span>
-			    <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-			    <span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="#">Litter Finder</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  <ul class="nav navbar-nav">
-			    <li><a href="index.html">Home</a></li>
-			    <li><a href="location.html">Locations</a></li>
-			    <li class="active"><a href="about.html">About</a></li>
-			    <li><a href="#">Contact</a></li>
-			  </ul>
-			  
-			  <ul class="nav navbar-nav navbar-right">
-			    <li><a href="signup.html">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
-			    <li><a href="login.html">Login <i class="fa fa-user" aria-hidden="true"></i></a></li>
-			  </ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container -->
-	</nav>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Litter Finder</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="location.html">Locations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+    <ul class = "navbar-nav">
+    	<li class="nav-item">
+        	<a class="nav-link" href="signup.html">Sign Up</a>
+      	</li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   <div class="container">
 		<div class="jumbotron">
 			<h1 class="display-4">What is this project about?</h1>
@@ -68,8 +70,21 @@
 			</p>
 		</div>
   </div>
-    <!-- for the navbar -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Litter Finder is an Open Source project developed and maintained by Zero-to-Mastery Team members</p>
+        <p>Interested? <a href="https://getbootstrap.com/docs/4.1/">View project on Github</a> or <a href="#">donate to project</a>.</p>
+      </div>
+    </footer>
+
+     <!-- Javascript to power bootstrap UI -->
+<script src="scripts/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </body>
 </html>
+
