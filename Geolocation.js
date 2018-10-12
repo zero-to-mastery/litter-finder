@@ -13,10 +13,10 @@ function initMap() {
         center: uluru
     });
 	infoWindow = new google.maps.InfoWindow;
-	
+
 	// Create an array of alphabetical characters used to label the markers.
     var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-   
+
 	if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
           var pos = {
@@ -30,7 +30,7 @@ function initMap() {
 			});
 		map.setZoom(14);
         map.setCenter(pos);
-			
+
         }, function() {
           handleLocationError(true);
         });
@@ -38,13 +38,14 @@ function initMap() {
         // Browser doesn't support Geolocation
         handleLocationError(false);
     }
-      
+	}
+
       function handleLocationError(browserHasGeolocation, pos) {
                alert(browserHasGeolocation ?
              'Error: The Geolocation service failed.' :
              'Error: Your browser doesn\'t support geolocation.');
       }
-	
+
 	/*
 	// Add some markers to the map.
 	   var markers = locations.map(function(location, i) {
@@ -61,4 +62,3 @@ function initMap() {
 }
 
 //TODO: Add event listener for the button
-
