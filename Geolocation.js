@@ -31,6 +31,17 @@ function initMap() {
 		map.setZoom(14);
         map.setCenter(pos);
 
+        var data = {"locations":[{
+
+        }]};
+
+            data.locations.push({
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            });
+            // txt = JSON.stringify(data);
+            console.log(data)
+
         }, function() {
           handleLocationError(true);
         });
@@ -59,6 +70,6 @@ function initMap() {
     var markerCluster = new MarkerClusterer(map, markers,
       {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 	 */
-}
+    
 
 //TODO: Add event listener for the button
