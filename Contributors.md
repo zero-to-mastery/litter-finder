@@ -4,5 +4,7 @@ Dushyant Dave
 
 -[@FamNew](www.github.com/FamNew)
 
+-[@DanielB3](www.github.com/DanielB3)
+
 -[@OmerHai](https://github.com/OmerHai)
 
